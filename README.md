@@ -1,7 +1,10 @@
+I created an [issue](https://github.com/electron-userland/electron-forge/issues/470)
+on electron-forge repository.
+
 Here is the example code to reproduce the never-end problem, [realm-in-electron](https://github.com/jacky-ttt/realm-in-electron).
 
 The steps to successfully package the electron app:
-1. clone the respository
+1. clone the repository
 2. `npm install`
 3. `electron-forge package --platform=darwin --arch=x64`
 
@@ -46,7 +49,7 @@ DEBUG=electron-packager electron-forge package
 ```
 
 The steps to reproduce the "never-end" problem:
-1. clone the respository
+1. clone the repository
 2. `npm install`
 3. **`electron-forge start`**
 4. `electron-forge package --platform=darwin --arch=x64`
