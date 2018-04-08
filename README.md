@@ -1,6 +1,16 @@
 I created an [issue](https://github.com/electron-userland/electron-forge/issues/470)
 on electron-forge repository.
 
+---
+I am using [Realm](https://github.com/realm/realm-js) in an Electron application, which is built with electron-forge. The packaging process gets stuck at "Preparing to Package Application for arch: x64" if `electron-forge start` is run before `electron-forge package`.  
+
+I am developing on
+* macOS `10.13.4`
+* node js `8.10.0`
+* npm `5.6.0`
+* python `2.7.14`
+
+
 Here is the example code to reproduce the never-end problem, [realm-in-electron](https://github.com/jacky-ttt/realm-in-electron).
 
 The steps to successfully package the electron app:
